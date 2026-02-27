@@ -52,7 +52,7 @@ st.subheader("Performance Metrics")
 st.write(f"Sharpe Ratio: {sharpe_ratio:.2f}")
 st.write(f"Sortino Ratio: {sortino_ratio:.2f}")
 
-2/27/2026 4:44 PM • optimal_weights = portfolio_optimization(returns_data)
+optimal_weights = portfolio_optimization(returns_data)
 
 st.subheader("Portfolio Optimization")
 st.write("Optimal Portfolio Weights:")
